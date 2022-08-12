@@ -1,6 +1,7 @@
 {
   "graduateUser": [
     {
+      "uuid": 1,
       "_id": "60f532903ded77001064ae90",
       "available": true,
       "firstName": "David",
@@ -100,6 +101,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 2,
       "_id": "60f532903ded77001064ae91",
       "available": true,
       "firstName": "Bethany",
@@ -199,6 +201,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 3,
       "_id": "60f532903ded77001064ae92",
       "available": true,
       "firstName": "Kalliope",
@@ -306,6 +309,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 4,
       "_id": "60f532903ded77001064ae93",
       "available": true,
       "firstName": "Billie",
@@ -413,6 +417,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 5,
       "_id": "60f532903ded77001064ae94",
       "available": true,
       "firstName": "Ben",
@@ -512,6 +517,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 6,
       "_id": "60f532903ded77001064ae95",
       "available": true,
       "firstName": "Sarah",
@@ -611,6 +617,7 @@
       "trainingFinishDate": 1610643600
     },
     {
+      "uuid": 7,
       "_id": "60f532903ded77001064ae96",
       "available": true,
       "firstName": "Sue",
