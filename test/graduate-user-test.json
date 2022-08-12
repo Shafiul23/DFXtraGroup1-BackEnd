@@ -1,0 +1,720 @@
+{
+  "graduateUser": [
+    {
+      "uuid": 1,
+      "_id": "60f532903ded77001064ae90",
+      "available": true,
+      "firstName": "David",
+      "lastName": "Wannsinn",
+      "dateOfBirth": 609356000,
+      "gender": "male",
+      "nationality": "American",
+      "personality": "INTJ",
+      "phone": 447784698568,
+      "linkedIn": "www.linkedin.com/in/david-wannsinn",
+      "gitHub": "DavidWannSinn",
+      "personalEmail": "davidwann@gmail.com",
+      "digitalFuturesEmail": "davesinnwann@digitalfutures.com",
+      "degrees": [
+        {
+          "university": "Plymouth",
+          "degreeSubject": "Computer Science",
+          "degreeLevel": "Masters",
+          "grade": "2:2",
+          "fromDate": 2004,
+          "toDate": 2008,
+          "weight": "XL",
+          "priority": 9,
+          "description": "A computer science degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Joyful Academy",
+          "examType": "A level",
+          "subject": "Maths",
+          "grade": "A*",
+          "year": 2003,
+          "weight": "L",
+          "priority": 8,
+          "description": "An A level in history"
+        },
+        {
+          "school": "Joyful Academy",
+          "examType": "A level",
+          "subject": "Computer Science",
+          "grade": "A",
+          "year": 2003,
+          "weight": "L",
+          "priority": 6,
+          "description": "An A level in geography"
+        },
+        {
+          "school": "Joyful Academy",
+          "examType": "A level",
+          "subject": "English Literature",
+          "grade": "B",
+          "year": 2003,
+          "weight": "L",
+          "priority": 7,
+          "description": "An A level in English literature"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "full-time",
+          "employer": "Costa",
+          "position": "barista",
+          "fromDate": 2008,
+          "toDate": 2009,
+          "weight": "L",
+          "priority": 8,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Cert",
+          "issuer": "Oracle",
+          "award": "Oracle Java SE",
+          "grade": "Pass",
+          "year": 2020,
+          "weight": "L",
+          "priority": 8,
+          "description": "Java certified"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "How to drive",
+          "URL": "www.google.com",
+          "year": "2009",
+          "weight": "L",
+          "priority": 8,
+          "description": "Driving tutorial"
+        }
+      ],
+      "personalSummary": "Magic and science fuse together to create... ME!",
+      "cohort": "ds-2121-a",
+      "learningPath": "Data Science",
+      "trainer": "Daniel Ferrera",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 2,
+      "_id": "60f532903ded77001064ae91",
+      "available": true,
+      "firstName": "Bethany",
+      "lastName": "Michaels",
+      "dateOfBirth": 759356000,
+      "gender": "female",
+      "nationality": "British",
+      "personality": "INTJ",
+      "phone": 447653794451,
+      "linkedIn": "www.linkedin.com/in/bethany-michaels",
+      "gitHub": "BethanyMichaels",
+      "personalEmail": "bethanymichaels@gmail.com",
+      "digitalFuturesEmail": "bethanymichaels@digitalfutures.com",
+      "degrees": [
+        {
+          "university": "Manchester",
+          "degreeSubject": "Physics",
+          "degreeLevel": "Bachelor's",
+          "grade": "1:1",
+          "fromDate": 2011,
+          "toDate": 2015,
+          "weight": "XL",
+          "priority": 9,
+          "description": "A physics degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Watson's College",
+          "examType": "A level",
+          "subject": "Psychology",
+          "grade": "A*",
+          "year": 2010,
+          "weight": "L",
+          "priority": 8,
+          "description": "An A level in psychology"
+        },
+        {
+          "school": "Banana Episcopi",
+          "examType": "A level",
+          "subject": "Geography",
+          "grade": "A",
+          "year": 2010,
+          "weight": "L",
+          "priority": 6,
+          "description": "An A level in geography"
+        },
+        {
+          "school": "Banana Episcopi",
+          "examType": "A level",
+          "subject": "Physics",
+          "grade": "A*",
+          "year": 2010,
+          "weight": "L",
+          "priority": 7,
+          "description": "An A level in Physics"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "full-time",
+          "employer": "Favio's Animal Shelter",
+          "position": "Animal Keeper",
+          "fromDate": 2016,
+          "toDate": 2020,
+          "weight": "L",
+          "priority": 8,
+          "description": "Looking after animals"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Award",
+          "issuer": "Oracle",
+          "award": "Oracle Java SE",
+          "grade": "Pass",
+          "year": 2010,
+          "weight": "L",
+          "priority": 8,
+          "description": "Java certi"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "How to Yoga",
+          "URL": "www.google.com",
+          "year": "2019",
+          "weight": "L",
+          "priority": 8,
+          "description": "Yoga tutorial"
+        }
+      ],
+      "personalSummary": "I am driven and determinded",
+      "cohort": "mse-2121-a",
+      "learningPath": "Software Engineering",
+      "trainer": "Doris McLean",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 3,
+      "_id": "60f532903ded77001064ae92",
+      "available": true,
+      "firstName": "Kalliope",
+      "lastName": "Schmidt",
+      "dateOfBirth": 709356000,
+      "gender": "female",
+      "nationality": "British",
+      "personality": "INTJ",
+      "phone": 447845232994,
+      "linkedIn": "www.linkedin.com/in/kalliope-schmidt-228a23189",
+      "gitHub": "KalliopeSchmidt",
+      "personalEmail": "kallischmidt@gmail.com",
+      "digitalFuturesEmail": "kalliopehederaschmidt@gmail.com",
+      "degrees": [
+        {
+          "university": "Bristol",
+          "degreeSubject": "History",
+          "degreeLevel": "Bachelor's",
+          "grade": "2:1",
+          "fromDate": 2011,
+          "toDate": 2015,
+          "weight": "XL",
+          "priority": 9,
+          "description": "A history degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Strawberry School of Speech",
+          "examType": "A level",
+          "subject": "History",
+          "grade": "A*",
+          "year": 2010,
+          "weight": "L",
+          "priority": 8,
+          "description": "An A level in history"
+        },
+        {
+          "school": "Strawberry School of Speech",
+          "examType": "A level",
+          "subject": "Geography",
+          "grade": "A",
+          "year": 2010,
+          "weight": "L",
+          "priority": 6,
+          "description": "An A level in geography"
+        },
+        {
+          "school": "Strawberry School of Speech",
+          "examType": "A level",
+          "subject": "English Literature",
+          "grade": "B",
+          "year": 2010,
+          "weight": "L",
+          "priority": 7,
+          "description": "An A level in English literature"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "full-time",
+          "employer": "Malvolio ltd",
+          "position": "clerk",
+          "fromDate": 2016,
+          "toDate": 2020,
+          "weight": "L",
+          "priority": 8,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Cert",
+          "issuer": "Apps Rus",
+          "award": "Python",
+          "grade": "Pass",
+          "year": 2019,
+          "weight": "L",
+          "priority": 2,
+          "description": "Pycharm certified"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Lava: What is it really?",
+          "url": "https://www.youtube.com/watch?v=uh4dMLK9q8r",
+          "year": 2017,
+          "weight": "L",
+          "priority": 6,
+          "description": "An academic seminar I delivered on lava at a conference"
+        },
+        {
+          "title": "Robespierre's fashion choices",
+          "url": "https://www.youtube.com/watch?v=uh4dGLH9q7s",
+          "year": 2018,
+          "weight": "M",
+          "priority": 7,
+          "description": "A motivational talk I gave about Robespierre"
+        }
+      ],
+      "personalSummary": "The greatest thing about never having been born is that one never has to visit Bermondsey",
+      "cohort": "mse-2121-a",
+      "learningPath": "Software Engineering",
+      "trainer": "Doris McLean",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 4,
+      "_id": "60f532903ded77001064ae93",
+      "available": true,
+      "firstName": "Billie",
+      "lastName": "Slather",
+      "dateOfBirth": 709356000,
+      "gender": "female",
+      "nationality": "French",
+      "personality": "INFP",
+      "phone": 447845232994,
+      "linkedIn": "www.linkedin.com/in/billie-billie-238a24189",
+      "gitHub": "BillieBillie",
+      "personalEmail": "billiethebillie@gmail.com",
+      "digitalFuturesEmail": "biliescaleneslather@gmail.com",
+      "degrees": [
+        {
+          "university": "Aberystwyth",
+          "degreeSubject": "Film Studies",
+          "degreeLevel": "Masters's",
+          "grade": "Distinction",
+          "fromDate": 2010,
+          "toDate": 2012,
+          "weight": "L",
+          "priority": 7,
+          "description": "A master's in film studies"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Fleabag High",
+          "examType": "A level",
+          "subject": "Chemistry",
+          "grade": "B",
+          "year": 2006,
+          "weight": "L",
+          "priority": 7,
+          "description": "An A level in chemistry"
+        },
+        {
+          "school": "Fleabag High",
+          "examType": "A level",
+          "subject": "Italian",
+          "grade": "A",
+          "year": 2006,
+          "weight": "M",
+          "priority": 5,
+          "description": "An A level in Italian"
+        },
+        {
+          "school": "Fleabag High",
+          "examType": "A level",
+          "subject": "Mathematics",
+          "grade": "B",
+          "year": 2010,
+          "weight": "L",
+          "priority": 8,
+          "description": "An A level in mathematics"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "full-time",
+          "employer": "Sunbeams and Daisies",
+          "position": "riddle maker",
+          "fromDate": 2006,
+          "toDate": 2009,
+          "weight": "M",
+          "priority": 8,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Cert",
+          "issuer": "The Matrix",
+          "award": "Flower Master",
+          "grade": "Pass",
+          "year": 2018,
+          "weight": "L",
+          "priority": 2,
+          "description": "A flower-arranging qualification"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "James Dean and the Couscous Landmine",
+          "url": "https://www.youtube.com/watch?f=ug4dMMK9q8r",
+          "year": 2017,
+          "weight": "M",
+          "priority": 6,
+          "description": "A seminar I delivered"
+        },
+        {
+          "title": "Website of Yarn",
+          "url": "https://www.websiteofyarn.com",
+          "year": 2018,
+          "weight": "M",
+          "priority": 4,
+          "description": "A website I created about yarn"
+        }
+      ],
+      "personalSummary": "To the arms of Quetzalcoatl we shall all return",
+      "cohort": "mse-2121-a",
+      "learningPath": "Software Engineering",
+      "trainer": "Doris McLean",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 5,
+      "_id": "60f532903ded77001064ae94",
+      "available": true,
+      "firstName": "Ben",
+      "lastName": "Hanoi",
+      "dateOfBirth": 709356000,
+      "gender": "male",
+      "nationality": "Australian",
+      "personality": "ESTJ",
+      "phone": 447173057395,
+      "linkedIn": "www.linkedin.com/in/hanoi-ben-228a23189",
+      "gitHub": "BenHanoi",
+      "personalEmail": "benjaminhan@gmail.com",
+      "digitalFuturesEmail": "benatdf.com",
+      "degrees": [
+        {
+          "university": "Leicester",
+          "degreeSubject": "Psychology",
+          "degreeLevel": "Bachelor's",
+          "grade": "2:2",
+          "fromDate": 2009,
+          "toDate": 2012,
+          "weight": "M",
+          "priority": 5,
+          "description": "A psychology degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Spoolsteak Academy",
+          "examType": "A level",
+          "subject": "History",
+          "grade": "A",
+          "year": 2007,
+          "weight": "L",
+          "priority": 6,
+          "description": "An A level in history"
+        },
+        {
+          "school": "Spoolsteak Academy",
+          "examType": "A level",
+          "subject": "Physics",
+          "grade": "A*",
+          "year": 2007,
+          "weight": "L",
+          "priority": 7,
+          "description": "An A level in physics"
+        },
+        {
+          "school": "Spoolsteak Academy",
+          "examType": "A level",
+          "subject": "English Language",
+          "grade": "A",
+          "year": 2007,
+          "weight": "M",
+          "priority": 6,
+          "description": "An A level in English language"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "part-time",
+          "employer": "The Blue Cheese Guitar Company",
+          "position": "chef",
+          "fromDate": 2014,
+          "to": 2019,
+          "weight": "L",
+          "priority": 7,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Diploma",
+          "issuer": "Cabbage ltd",
+          "award": "The Alaska Cross",
+          "grade": "Pass",
+          "year": 2005,
+          "weight": "L",
+          "priority": 6,
+          "description": "An award for many outstanding things"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Once Upon a Nosering",
+          "url": "https://www.youtube.com/watch?v=un3dMLK9g8t",
+          "year": 2016,
+          "weight": "L",
+          "priority": 4,
+          "description": "A novel I wrote"
+        }
+      ],
+      "personalSummary": "One day, I will drink tea",
+      "cohort": "mse-2121-a",
+      "learningPath": "Data Science",
+      "trainer": "Albrid LaFlue",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 6,
+      "_id": "60f532903ded77001064ae95",
+      "available": true,
+      "firstName": "Sarah",
+      "lastName": "Smith",
+      "dateOfBirth": 709356000,
+      "gender": "female",
+      "nationality": "German",
+      "personality": "ENFJ",
+      "phone": 447354089666,
+      "linkedIn": "www.linkedin.com/in/sarah-sylveste-228a23189",
+      "gitHub": "SSylvSmith",
+      "personalEmail": "sarahsarah@gmail.com",
+      "digitalFuturesEmail": "sarahsarahsarah@gmail.com",
+      "degrees": [
+        {
+          "university": "Dundee",
+          "degreeSubject": "Geography",
+          "degreeLevel": "Bachelor's",
+          "grade": "First Class",
+          "fromDate": 2015,
+          "toDate": 2019,
+          "weight": "XL",
+          "priority": 8,
+          "description": "A geography degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Butterfly Hurricane High",
+          "examType": "A level",
+          "subject": "History",
+          "grade": "A",
+          "year": 2014,
+          "weight": "M",
+          "priority": 7,
+          "description": "An A level in history"
+        },
+        {
+          "school": "Butterfly Hurricane High",
+          "examType": "A level",
+          "subject": "Philosophy",
+          "grade": "B",
+          "year": 2014,
+          "weight": "L",
+          "priority": 9,
+          "description": "An A level in philosophy"
+        },
+        {
+          "school": "Butterfly Hurricane High",
+          "examType": "A level",
+          "subject": "Spanish",
+          "grade": "A",
+          "year": 2014,
+          "weight": "M",
+          "priority": 5,
+          "description": "An A level in Spanish"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "part-time",
+          "employer": "Ezekiel ltd",
+          "position": "Server",
+          "fromDate": 2019,
+          "toDate": 2020,
+          "weight": "L",
+          "priority": 3,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "Diploma",
+          "issuer": "Ezekiel ltd",
+          "award": "Papier Mache Doyenne",
+          "grade": "Pass",
+          "year": 2020,
+          "weight": "M",
+          "priority": 4,
+          "description": "Papier mache certificate"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Headphones and Humbugs",
+          "url": "https://www.youtube.com/watch?y=eq7dLLK9q8r",
+          "year": 2017,
+          "weight": "L",
+          "priority": 5,
+          "description": "An album I wrote and produced"
+        }
+      ],
+      "personalSummary": "Await the tsunami of glitter at your own peril",
+      "cohort": "mse-2121-a",
+      "learningPath": "Software Engineering",
+      "trainer": "Doris McLean",
+      "trainingFinishDate": 1610643600
+    },
+    {
+      "uuid": 7,
+      "_id": "60f532903ded77001064ae96",
+      "available": true,
+      "firstName": "Sue",
+      "lastName": "Theramin",
+      "dateOfBirth": 709356000,
+      "gender": "female",
+      "nationality": "Irish",
+      "personality": "INTP",
+      "phone": 447788463210,
+      "linkedIn": "www.linkedin.com/in/theramin-canton-228a23189",
+      "gitHub": "SueCantonTheramin",
+      "personalEmail": "suetheramincanton@gmail.com",
+      "digitalFuturesEmail": "cantontheramin@gmail.com",
+      "degrees": [
+        {
+          "university": "Exeter",
+          "degreeSubject": "Philosophy",
+          "degreeLevel": "Bachelor's",
+          "grade": "2:2",
+          "fromDate": 2013,
+          "toDate": 2017,
+          "weight": "L",
+          "priority": 7,
+          "description": "A philosophy degree"
+        }
+      ],
+      "schoolQualifications": [
+        {
+          "school": "Five String School",
+          "examType": "A level",
+          "subject": "German",
+          "grade": "A",
+          "year": 2011,
+          "weight": "M",
+          "priority": 6,
+          "description": "An A level in German"
+        },
+        {
+          "school": "Five String School",
+          "examType": "A level",
+          "subject": "Jousting",
+          "grade": "B",
+          "year": 2011,
+          "weight": "M",
+          "priority": 5,
+          "description": "An A level in jousting"
+        },
+        {
+          "school": "Five String School",
+          "examType": "A level",
+          "subject": "Pottery",
+          "grade": "A",
+          "year": 2011,
+          "weight": "M",
+          "priority": 5,
+          "description": "An A level in pottery"
+        }
+      ],
+      "workExperience": [
+        {
+          "type": "part-time",
+          "employer": "Piranha Tower",
+          "position": "funicular",
+          "fromDate": 2011,
+          "toDate": 2021,
+          "weight": "L",
+          "priority": 9,
+          "description": "Honing initiative to deliver high-quality team-engagement solutions"
+        }
+      ],
+      "certificatesAndAwards": [
+        {
+          "type": "award",
+          "issuer": "Coelacanth Solutions",
+          "award": "Milliner of the Year",
+          "grade": "Pass",
+          "year": 2019,
+          "weight": "XL",
+          "priority": 6,
+          "description": "An award for truly excellent hat-making"
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Baseline Fundamentals of Hyperbole",
+          "url": "https://www.youtube.com/watch?v=uh8eMLH9w8r",
+          "year": 2016,
+          "weight": "M",
+          "priority": 5,
+          "description": "An academic seminar I delivered at a conference"
+        }
+      ],
+      "personalSummary": "Never cut off my wings",
+      "cohort": "mse-2121-a",
+      "learningPath": "Data Science",
+      "trainer": "Albrid LaFlue",
+      "trainingFinishDate": 1610643600
+    }
+  ]
+}
