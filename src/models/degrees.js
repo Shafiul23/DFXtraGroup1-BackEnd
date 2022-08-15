@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const degreeSchema = new mongoose.Schema(
@@ -16,5 +16,4 @@ const degreeSchema = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('degree', degreeSchema);
-module.exports.degreeSchema = degreeSchema;
+export default mongoose.model('degree', degreeSchema);

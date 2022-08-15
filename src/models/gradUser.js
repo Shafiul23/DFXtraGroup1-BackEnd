@@ -1,6 +1,10 @@
 import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
-// import { graduate } from '../routes/graduate';
+import certificatesAndAwards from './certificatesAndAwards';
+import degrees from './degrees';
+import portfolio from './portfolio';
+import schoolQualifications from './schoolQualifications';
+import workExperience from './workExperience';
 
 const graduateSchema = new mongoose.Schema({
     uuid: { type: Number, require: true },
@@ -18,16 +22,16 @@ const graduateSchema = new mongoose.Schema({
     personalEmail: { type: String, require: true },
     digitalFuturesEmail: { type: String, require: true },
     degrees: [
-        { type: degreeSchema }
+        { type: degrees }
     ],
     schoolQualifications: [
-        { type: schoolQualificationsSchema },
+        { type: schoolQualifications },
     ],
     workExperience: [
-        { type: workExperienceSchema }
+        { type: workExperience }
     ],
     certificatesAndAwards: [
-        { type: certificatesAndAwardsSchema }
+        { type: certificatesAndAwards }
     ],
     portfolio: [
         { type: portfolio }

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const certificatesAndAwardsSchema = new mongoose.Schema(
@@ -15,5 +15,4 @@ const certificatesAndAwardsSchema = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('certificatesAndAwards', certificatesAndAwardsSchema);
-module.exports.certificatesAndAwardsSchema = certificatesAndAwardsSchema;
+export default mongoose.model('certificatesAndAwards', certificatesAndAwardsSchema);

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const portfolioSchema = new mongoose.Schema(
@@ -13,5 +13,4 @@ const portfolioSchema = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('portfolio', portfolioSchema);
-module.exports.portfolioSchema = portfolioSchema;
+export default mongoose.model('portfolio', portfolioSchema);

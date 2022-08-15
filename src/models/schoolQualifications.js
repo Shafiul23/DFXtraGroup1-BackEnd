@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const schoolQualificationSchema = new mongoose.Schema(
@@ -15,5 +15,4 @@ const schoolQualificationSchema = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('schoolQualification', schoolQualificationSchema);
-module.exports.schoolQualificationSchema = schoolQualificationSchema;
+export default mongoose.model('schoolQualification', schoolQualificationSchema);
