@@ -1,19 +1,19 @@
 import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
-const degreeSchema = new mongoose.Schema(
+const degreesSchema = new mongoose.Schema(
     {
         // _id: { type: ObjectId, required: true },
-        university: { type: String, required: true },
-        degreeSubject: { type: String, required: true },
-        degreeLevel: { type: String, required: true },
-        grade: { type: String, required: true },
-        fromDate: { type: String, required: true },
-        toDate: { type: String, required: true },
-        weight: { type: String, required: true },
-        priority: { type: String, required: true },
+        university: { type: String },
+        degreeSubject: { type: String },
+        degreeLevel: { type: String },
+        grade: { type: String },
+        fromDate: { type: String },
+        toDate: { type: String },
+        weight: { type: String },
+        priority: { type: String },
         description: { type: String }
     }
 )
 
-export default mongoose.model('degree', degreeSchema);
+export default mongoose.model('degrees', degreesSchema);

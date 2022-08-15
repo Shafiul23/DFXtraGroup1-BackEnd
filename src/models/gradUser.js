@@ -1,26 +1,26 @@
 import mongoose from 'mongoose';
 const ObjectId = mongoose.Schema.Types.ObjectId;
-import certificatesAndAwards from './certificatesAndAwards';
-import degrees from './degrees';
-import portfolio from './portfolio';
-import schoolQualifications from './schoolQualifications';
-import workExperience from './workExperience';
+import certificatesAndAwards from './certificatesAndAwards.js';
+import degrees from './degrees.js';
+import portfolio from './portfolio.js';
+import schoolQualifications from './schoolQualifications.js';
+import workExperience from './workExperience.js';
 
 const graduateSchema = new mongoose.Schema({
-    uuid: { type: Number, require: true },
-    _id: { type: ObjectId, require: true },
-    available: { type: Boolean, require: true },
-    firstName: { type: String, require: true },
-    lastName: { type: String, require: true },
-    dateOfBirth: { type: Number, require: true },
-    gender: { type: String, require: true },
-    nationality: { type: String, require: true },
-    personality: { type: String, require: true },
-    phone: { type: Number, require: true },
-    linkedIn: { type: String, require: true },
-    gitHub: { type: Boolean, require: true },
-    personalEmail: { type: String, require: true },
-    digitalFuturesEmail: { type: String, require: true },
+    uuid: { type: Number, required: true },
+    _id: { type: ObjectId, required: true },
+    available: { type: Boolean, required: true },
+    firstName: { type: String, required: true },
+    lastName: { type: String, required: true },
+    dateOfBirth: { type: Number, required: true },
+    gender: { type: String, required: true },
+    nationality: { type: String, required: true },
+    personality: { type: String, required: true },
+    phone: { type: Number, required: true },
+    linkedIn: { type: String, required: true },
+    gitHub: { type: Boolean, required: true },
+    personalEmail: { type: String, required: true },
+    digitalFuturesEmail: { type: String, required: true },
     degrees: [
         { type: degrees }
     ],
@@ -36,11 +36,11 @@ const graduateSchema = new mongoose.Schema({
     portfolio: [
         { type: portfolio }
     ],
-    personalSummary: { type: String, require: true },
-    cohort: { type: String, require: true },
-    learningPath: { type: String, require: true },
-    trainer: { type: String, require: true },
-    trainingFinishDate: { type: Number, require: true }
+    personalSummary: { type: String, required: true },
+    cohort: { type: String, required: true },
+    learningPath: { type: String, required: true },
+    trainer: { type: String, required: true },
+    trainingFinishDate: { type: Number, required: true }
 }, { collection: "graduate-user" });
 
 
