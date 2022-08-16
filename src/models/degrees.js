@@ -15,5 +15,4 @@ const degreesSchema = new mongoose.Schema(
         description: { type: String }
     }
 )
-
-export default mongoose.model('degrees', degreesSchema);
+export default degreesSchema;

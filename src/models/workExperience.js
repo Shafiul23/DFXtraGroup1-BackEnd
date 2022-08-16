@@ -15,4 +15,4 @@ const workExperienceSchema = new mongoose.Schema(
     }
 )
 
-export default mongoose.model('workExperience', workExperienceSchema);
+export default workExperienceSchema;

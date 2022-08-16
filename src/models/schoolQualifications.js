@@ -15,4 +15,5 @@ const schoolQualificationSchema = new mongoose.Schema(
     }
 )
 
-export default mongoose.model('schoolQualification', schoolQualificationSchema);
+
+export default schoolQualificationSchema;
