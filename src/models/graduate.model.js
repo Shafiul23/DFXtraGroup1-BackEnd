@@ -18,7 +18,7 @@ const graduateSchema = new mongoose.Schema({
     personality: { type: String, required: true },
     phone: { type: Number, required: true },
     linkedIn: { type: String, required: true },
-    gitHub: { type: Boolean, required: true },
+    gitHub: { type: String, required: true },
     personalEmail: { type: String, required: true },
     digitalFuturesEmail: { type: String, required: true },
     degrees: [

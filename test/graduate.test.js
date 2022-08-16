@@ -25,9 +25,31 @@ describe(`Tests`, () => {
             .then(() => console.log(`Database populated with graduate test data`))
             .catch(error => {
                 console.log(`Error inserting`);
+                console.log(error)
                 throw new Error();
             });
     })
+    it('Test 1 - should get all graduate data', async () => {
+        const res = await chai.request(server)
+            .get('/graduate')
+            .send()
+
+        expect(res).to.have.status(200);
+        expect(res.body.length).to.be.eql(graduateData.length);
+        expect(res.body).to.be.an('array');
+    });
+    it('Test 2 - should get one graduate from database', async () => {
+        const res = await chai.request(server)
+            .get('/graduate/1')
+            .send()
+
+        expect(res).to.have.status(200);
+        expect(res.body.uuid).to.be.equal(1);
+        expect(res.body).to.have.property("firstName")
+        expect(res.body.firstName).to.be.eql("David")
+        expect(res.body.digitalFuturesEmail).to.be.eql("davesinnwann@digitalfutures.com")
+
+    });
 })
 
 
