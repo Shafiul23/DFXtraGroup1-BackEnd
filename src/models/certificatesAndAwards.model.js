@@ -15,4 +15,5 @@ const certificatesAndAwardsSchema = new mongoose.Schema(
     }
 )
 
-export default mongoose.model('certificatesAndAwards', certificatesAndAwardsSchema);
+
+export default certificatesAndAwardsSchema;

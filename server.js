@@ -1,18 +1,18 @@
 import dotenv from 'dotenv';
-dotenv.config({ path: '/Users/shafiulmirza/Documents/digitalfutures/challenges/DFXtra/DFXtraGroup1-BackEnd/src/.env.development' });
+// dotenv.config({ path: `/Users/shafiulmirza/Documents/digitalfutures/challenges/DFXtra/DFXtraGroup1-BackEnd/src/.env.test` });
+dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import morgan from 'morgan';
 
-import { home } from './routes/home.js'
-import { graduate } from './routes/graduate.js';
+import { home } from './src/routes/home.js'
+import { graduate } from './src/routes/graduate.js';
 
-// dotenv.config({ path: `../.env.${process.env.NODE_ENV}` });
 const PORT = process.env.PORT;
 const DB_URI = process.env.DB_URI;
-
+console.log(DB_URI);
 const app = express();
 
 app.use(cors());
