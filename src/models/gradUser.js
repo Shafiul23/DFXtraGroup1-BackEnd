@@ -44,4 +44,6 @@ const graduateSchema = new mongoose.Schema({
 }, { collection: "graduate-user" });
 
 
-export default mongoose.model(`Graduate`, graduateSchema);
+// export default mongoose.model(`Graduate`, graduateSchema);
+const Graduate = mongoose.model(`Graduate`, graduateSchema);
+export default Graduate;

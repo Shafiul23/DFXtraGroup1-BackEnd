@@ -12,7 +12,6 @@ import { graduate } from './routes/graduate.js';
 // dotenv.config({ path: `../.env.${process.env.NODE_ENV}` });
 const PORT = process.env.PORT;
 const DB_URI = process.env.DB_URI;
-
 const app = express();
 
 app.use(cors());
